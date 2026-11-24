@@ -1,0 +1,26 @@
+{
+  "provider": "volcengine",
+  "volume": 1.0,
+  "switch_cue": "另一个对话：",
+  "openai": {
+    "base_url": "https://api.openai.com",
+    "api_key": "",
+    "model": "gpt-4o-mini-tts",
+    "voice": "alloy",
+    "speed": 1.0,
+    "extra_headers": {}
+  },
+  "volcengine": {
+    "endpoint": "https://openspeech.bytedance.com/api/v3/tts/unidirectional",
+    "api_key": "",
+    "app_id": "",
+    "access_key": "",
+    "resource_id": "seed-tts-2.0",
+    "voice": "zh_female_vv_uranus_bigtts",
+    "speed": 1.0,
+    "extra_headers": {}
+  },
+  "phone": { "port": 18945, "advertise_host": "", "max_listeners": 8 },
+  "devices": {},
+  "remotes": {}
+}

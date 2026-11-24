@@ -1,0 +1,6 @@
+config.json
+*.pid
+*.log
+run/
+__pycache__/
+.DS_Store
